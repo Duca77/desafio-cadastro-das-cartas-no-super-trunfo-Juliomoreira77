@@ -17,10 +17,10 @@ int main(){
 // O estado é uma string, então usamos %s para ler 
     printf("Digite o codigo: ");
     scanf("%s", codigo);
-// O codigo é uma string, então usamos %s para ler 
+// O codigo é uma string composta por letras e números, então usamos %s para ler também 
     printf("Digite a cidade: ");
     scanf("%s", cidade);
-// A cidade é uma string, então usamos %s para ler também  
+// A cidade é uma string, então usamos %s para ler do mesmo modo   
     printf("Digite a populacao: ");
     scanf("%d", &populacao);
 // A populacao é um inteiro, então usamos %d para ler 
