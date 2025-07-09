@@ -4,16 +4,16 @@ int main(){
     printf("Desafio Super Trunfo\n");
     
 
-    char estado[20]; "Bahia";
-    char codigo[20]; "A01";
-    char cidade[20]; "Salvador";
-    unsigned int populacao = 4000000; // População em habitantes                                                                     
-    float area = 300.800; // Área em km²
-    float PIB = 200.000; // PIB em bilhões de reais
-    int pontos_turisticos = 52; // Número de pontos turísticos
-    float densidade_populacional = 13.33; // Densidade populacional em habitantes por km² 
-    float PIB_per_capita = 50.000; // PIB per capita em reais
-    float super_poder = 4550865.33; // Super poder do estado em bilhões de reais
+    char estado[20]; "Sergipe";
+    char codigo[20]; "B02";
+    char cidade[20]; "Aracaju";
+    unsigned int populacao = 3000000; // População em habitantes                                                                     
+    float area = 300.500; // Área em km²
+    float PIB = 1000000.00; // PIB em bilhões de reais
+    int pontos_turisticos = 45; // Número de pontos turísticos
+    float densidade_populacional = 10.00; // Densidade populacional em habitantes por km² 
+    float PIB_per_capita = 3.33; // PIB per capita em reais
+    float super_poder = 4300558.33; // Super poder do estado em bilhões de reais
     
     printf("Digite o estado: ");
     scanf("%s", estado);
@@ -72,18 +72,6 @@ int main(){
     float resultado_PIBpercapitacarta1 = 50.000;
     float resultado_PIBpercapitacarta2 = 3.33;
     printf("Resultado da carta que venceu o PIB per capita: %.3f\n", resultado_PIBpercapitacarta1 > resultado_PIBpercapitacarta2 ? resultado_PIBpercapitacarta1 : resultado_PIBpercapitacarta2);
-    
-    
-
-
-
-
-    
-    
-    
-
-    
-     
     
     return 0;
     
